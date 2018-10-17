@@ -35,4 +35,9 @@ from (pry):10:in `+'`
 => 2
 
 INPUT AND OUTPUT
-
+def multiplier(num)
+    num * 2
+  end
+  
+  multiplier(gets.chomp.to_i
+  )
