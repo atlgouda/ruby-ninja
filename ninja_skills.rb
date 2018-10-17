@@ -51,4 +51,14 @@ INPUT AND OUTPUT
     end
     survey()
 
-    
+ARRAYS
+myFirstArray = []
+myFirstArray = ["chris", "moon", "ivy", "john", "gouda", 1, 2, 3, 4]
+myFirstArray.last
+myFirstArray.first
+myFirstArray[1] = "joe"
+myFirstArray[2] = 3
+myFirstArray.push("true")
+puts myFirstArray[5]
+
+HASHES
