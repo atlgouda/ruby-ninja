@@ -35,9 +35,20 @@ from (pry):10:in `+'`
 => 2
 
 INPUT AND OUTPUT
-def multiplier(num)
+1.  def multiplier(num)
     num * 2
   end
   
   multiplier(gets.chomp.to_i
   )
+
+2.  def survey ()
+        puts "What's your name?"
+    name = gets.chomp
+        puts "What do you like"
+    hobby = gets.chomp
+        puts name + " likes to " + hobby
+    end
+    survey()
+
+    
